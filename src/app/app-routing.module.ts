@@ -10,6 +10,15 @@ const routes: Routes = [
         loadChildren:()=> import('./modules/parametrizacion/parametrizacion.module').then( m => m.ParametrizacionModule )
       }
     ]
+  },
+  {
+    path:'',
+    children:[
+      {
+        path:'login',
+        loadChildren:()=> import('./modules/login/login.module').then( m => m.LoginModule )
+      }
+    ]
   }
 ];
 

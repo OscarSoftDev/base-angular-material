@@ -9,7 +9,7 @@ const routes: Routes = [
   children: [
     { path:'property', component : PropertyComponent }
   ]
-}
+  }   
 ];
 
 @NgModule({
