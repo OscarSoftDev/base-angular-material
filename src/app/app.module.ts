@@ -8,6 +8,8 @@ import { LoginComponent } from './modules/login/login.component';
 
 
 
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,6 +20,7 @@ import { LoginComponent } from './modules/login/login.component';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+    
 
   ],
   providers: [],
