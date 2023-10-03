@@ -5,7 +5,8 @@ import { AppComponent } from './app.component';
 import { ParametrizacionComponent } from './modules/parametrizacion/parametrizacion.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { LoginComponent } from './modules/login/login.component';
-
+import { NavbarComponent } from './modules/components/navbar/navbar.component';
+import { MaterialModule } from './material/material.module';
 
 
 
@@ -14,12 +15,15 @@ import { LoginComponent } from './modules/login/login.component';
   declarations: [
     AppComponent,
     ParametrizacionComponent,
-    LoginComponent
+    LoginComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+    MaterialModule,
+
     
 
   ],
